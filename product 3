@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Item Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="product-details">
+        <!-- Product details here -->
+        <!-- 'mailto' link for Buy Now button -->
+    </div>
+</body>
+</html>
