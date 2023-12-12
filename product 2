@@ -1,13 +1,13 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Item Page</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-    <div class="product-details">
-        <!-- Product details here -->
-        <!-- 'mailto' link for Buy Now button -->
-    </div>
-</body>
-</html>
+<form action="mailto:nhahnfeld@antilles.vi" method="post" enctype="text/plain">Student Name: 
+<span style="color:red">*</span><br><input type="text" name="studentname" required> 
+<br>Student Email:<span style="color:red">*</span><br><input type="email" name="studentemail" 
+required><br>Date of Birth:<br><input type="date" name="dob"><br><br>Favorite Island:STT<input type="radio" name="favisland" 
+value="STT">STX<input type="radio" name="favisland" value="STX">STJ<input type="radio" name="favisland" value="STJ">
+Water Island<input type="radio" name="favisland" value="WaterIsland"><br><br>Did you pack? <br>Sunscreen: 
+<input type="checkbox" name="packed" value="Sunscreen">Towel: <input type="checkbox" name="packed" value="Towel">
+Bathing Suit: <input type="checkbox" name="packed" value="bathingsuit">Suitcase: <input type="checkbox" name="packed"
+value="suitcase">Rate our Website (all white=worst all blue=best): <input type="range" name="rating" min="0" max="10">
+Enter Phone Number: <input type="tel"  name="phone" placeholder="340-779-3456" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+<br>Favorite Website: <input type="url" name="url" placeholder="https://example.com"  size="30" /><br>Leave a Comment:
+<textarea rows="5" cols="50" name="comment" > Write comment here...</textarea>
+<br><br><input type="reset" value="Reset"><input type="submit" value="Send to Madelyn"></form>
